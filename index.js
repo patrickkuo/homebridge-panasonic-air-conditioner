@@ -32,7 +32,7 @@ function PanasonicAC(log, config) {
 	this.groupNumber = config.groupnumber || 1;
 
 	this.uToken = null;
-	this.version = "1.10.0";
+	this.version = "1.12.0";
 	this.temperature = 0.0;
 
 	// Login for the first time and refresh
